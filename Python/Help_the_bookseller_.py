@@ -36,7 +36,7 @@ If L or M are empty return string is "" (Clojure should return an empty array in
 
 
 def stock_list(listOfArt, listOfCat):
-    if len(listOfCat) == 0 or len(listOfCat) == 0:
+    if len(listOfArt) == 0 or len(listOfCat) == 0:
         return ''
     ans = [int(i) for i in list(str(0)*len(listOfCat))]
     for i in listOfArt:
